@@ -1,4 +1,4 @@
-#!/usr/bin/env python 3
+#!/usr/bin/env python3
 
 def part1(turns, start):
     clicks = 0
@@ -15,7 +15,7 @@ def part1(turns, start):
             code %= 100
             clicks += 1
 
-    print(f"Part 1: {clicks}")
+    print(f"Part1: {clicks}")
     return
 
 def part2(turns, start):
